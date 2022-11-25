@@ -51,8 +51,11 @@
 		B8F5FB082931753300382E78 /* Pinch */ = {
 			isa = PBXGroup;
 			children = (
+				B8F5FB1A2931774300382E78 /* Data */,
+				B8F5FB192931773A00382E78 /* Model */,
+				B8F5FB182931772200382E78 /* View */,
 				B8F5FB092931753300382E78 /* PinchApp.swift */,
-				B8F5FB0B2931753300382E78 /* ContentView.swift */,
+				B8F5FB172931770300382E78 /* Screens */,
 				B8F5FB0D2931753600382E78 /* Assets.xcassets */,
 				B8F5FB0F2931753600382E78 /* Preview Content */,
 			);
@@ -65,6 +68,35 @@
 				B8F5FB102931753600382E78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8F5FB172931770300382E78 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B8F5FB0B2931753300382E78 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B8F5FB182931772200382E78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8F5FB192931773A00382E78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8F5FB1A2931774300382E78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
